@@ -1,0 +1,245 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <div class="menu-1">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span class="dotted-icon"></span> Playlist</h4>
+                <h4><span class="dotted-icon"></span> Last Listening</h4>
+                <h4><span class="dotted-icon"></span> Recommendations</h4>
+            </div>
+            <ul class="menu_song">
+                <li class="songitem">
+                    <span>01</span>
+                    <img src="img/artworks-000169731686-zgvff2-t500x500.jpg" alt="Faded">
+                    <h5>Faded<br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="fa-solid fa-play"></i>
+                </li>
+                <li class="songitem">
+                    <span>02</span>
+                    <img src="https___images.genius.com_5fc16694b2fcd0235f5d68fd5c9b4508.1000x1000x1.jpg" alt="Faded">
+                    <h5>millionaire<br>
+                        <div class="subtitle">yoyohoneysingh</div>
+                    </h5>
+                    <i class="fa-solid fa-play"></i>
+                </li>
+                <li class="songitem">
+                    <span>03</span>
+                    <img src="img/drippy.jpg" alt="Faded">
+                    <h5>Drippy<br>
+                        <div class="subtitle">Sidhu Moosewala</div>
+                    </h5>
+                    <i class="fa-solid fa-play"></i>
+                </li>
+                <li class="songitem">
+                    <span>04</span>
+                    <img src="img/Shape_Of_You_(Official_Single_Cover)_by_Ed_Sheeran.jpg" alt="Faded">
+                    <h5>Shape of you<br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="fa-solid fa-play"></i>
+                </li>
+                <!-- Repeat song items as needed -->
+            </ul>
+            <div class="masterplay">
+                <div class="wave">
+                    <div class="wavel"></div>
+                    <div class="wavel"></div>
+                    <div class="wavel"></div>
+                </div>
+                <div class="masterplay-container">
+                    <img src="jmatadi.jpg.jpg" alt="Master Play" class="poster_masterplay">
+                    <h5>Mata Rani<br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <div class="music-controls">
+                        <i class="fa-solid fa-backward"></i>
+                        
+                        <button class="play-pause">
+                            <!-- Default icon --><i class="fa-solid fa-play"></i>
+                        </button>
+                        <i class="fa-solid fa-forward"></i>
+                    </div>
+
+                </div>
+                <div class="tr"></div>
+            </div>
+
+
+        </div>
+        <div class="menu-2">
+            <div class="navbar">
+                <button class="nav-button" id="artists">Artists</button>
+                <div class="dropdown-menu" id="artists-dropdown">
+                    <ul>
+                        <li>Alan Walker</li>
+                        <li>Ariana Grande</li>
+                        <li>Ed Sheeran</li>
+                        <li>Beyoncé</li>
+                        <li>Drake</li>
+                        <li>Justin Bieber</li>
+                        <li>Diljit Dosanjh</li>
+                        <li>Sidhu Moosewala</li>
+                        <li>yoyo honey Singh</li>
+                        <li>Jass Manak</li>
+                        <li>Karan Aujla</li>
+                        <li>Arijit Singh</li>
+                        <li>Anirudh Ravichander</li>
+                    </ul>
+
+                </div>
+                <button class="nav-button" id="songs">Songs</button>
+                <button class="nav-button" id="playlists">Playlists</button>
+                <button class="nav-button" id="albums">Albums</button>
+            </div>
+            <div class="container">
+                <h2>Recommended for you</h2>
+                <div class="song-list">
+                    <div class="songitem">
+                        <div class="song-card">
+                            <img src="img/artworks-000169731686-zgvff2-t500x500.jpg" alt="Faded" class="song-image">
+                            <h5>Faded<br>
+                                <div class="subtitle">Alan Walker</div>
+                            </h5>
+                            <i class="fa-solid fa-play play-icon"></i>
+                        </div>
+                    </div>
+                    <div class="songitem">
+                        <div class="song-card">
+                            <img src="img/yoyo honeysingh.jpg.webp" alt="Millionaire" class="song-image">
+                            <h5>Millionaire<br>
+                                <div class="subtitle">Yo Yo Honey Singh</div>
+                            </h5>
+                            <i class="fa-solid fa-play play-icon"></i>
+                        </div>
+                    </div>
+                    <div class="songitem">
+                        <div class="song-card">
+                            <img src="img/drippy.jpg" alt="Drippy" class="song-image">
+                            <h5>Drippy<br>
+                                <div class="subtitle">Sidhu Moosewala</div>
+                            </h5>
+                            <i class="fa-solid fa-play play-icon"></i>
+                        </div>
+                    </div>
+                    <div class="songitem">
+                        <div class="song-card">
+                            <img src="img/Shape_Of_You_(Official_Single_Cover)_by_Ed_Sheeran.jpg" alt="Shape of You" class="song-image">
+                            <h5>Shape of You<br>
+                                <div class="subtitle">Ed Sheeran</div>
+                            </h5>
+                            <i class="fa-solid fa-play play-icon"></i>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="audio-container">
+
+                <!-- Left Controls -->
+                <div class="controls-section">
+                    <button id="start-assistant" style="background: none; border: none; cursor: pointer;">
+                        <i class="fas fa-microphone" aria-hidden="true"></i>
+                    </button>
+
+                <!-- Progress Bar -->
+                <div class="progress-container">
+                    <div class="current-time">0:41</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <div class="total-time">3:20</div>
+                </div>
+
+                <!-- Right Controls -->
+                <div class="right-controls">
+                    <i class="icon-volume fas fa-volume-up"></i> <!-- Volume Icon -->
+                    <div class="volume-slider">
+                        <div class="volume-fill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">For the Record</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Communities</h4>
+                <ul>
+                    <li><a href="#">For Artists</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Vendors</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Useful links</h4>
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Free Mobile App</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Spotify Plans</h4>
+                <ul>
+                    <li><a href="#">Premium Individual</a></li>
+                    <li><a href="#">Premium Duo</a></li>
+                    <li><a href="#">Premium Family</a></li>
+                    <li><a href="#">Premium Student</a></li>
+                    <li><a href="#">Spotify Free</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <ul class="footer-bottom-links">
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Safety & Privacy Center</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">About Ads</a></li>
+                <li><a href="#">Accessibility</a></li>
+            </ul>
+            <p>© 2024 Spotify AB</p>
+        </div>
+    </footer>
+   
+
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
